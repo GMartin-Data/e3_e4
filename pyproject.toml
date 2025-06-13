@@ -1,0 +1,14 @@
+[project]
+name = "e3-e4"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = "=3.12.*"
+dependencies = []
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = ["pre-commit>=4.2.0"]
